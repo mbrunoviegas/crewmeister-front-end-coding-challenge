@@ -5,7 +5,7 @@
 
 I felt the necessity to create an interface for my project, so I created this simple one and I'll let some instruction below.
 
-#### Prerequisites
+### Prerequisites
 1. `npm i`
 
 ### Running
