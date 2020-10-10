@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+h1 {
+    color: darkorange;
+    display: inline-block;
+    padding: 4px;
+    margin-top: 20px;
+    font-size: medium;
+}
+
+#appName {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#spanName {
+    font: 600 14px Roboto Slab, sans-serif;
+    font-size: 35px;
+}
+
+
+/* Solid border */
+hr.solid {
+    border-top: 1px solid darkorange;
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+

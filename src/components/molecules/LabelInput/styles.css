@@ -1,0 +1,23 @@
+input{
+    height: 30px;
+    margin-left: 10px;
+    text-align: end;
+    border: #ff8c00;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.labelForm {
+    margin-top: 20px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    justify-content: right;
+    display: flex;
+    flex-wrap: wrap;
+}

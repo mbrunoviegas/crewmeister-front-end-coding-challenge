@@ -1,0 +1,17 @@
+
+#absenceItem {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#absenceLabel {
+    margin-bottom: 2px;
+    margin-left: 10px;
+    font: 700 14px Roboto;
+}
+
+#absence{
+    margin-left: 10px;
+    margin-bottom: 2px;
+    font-style: italic;
+}

@@ -1,0 +1,6 @@
+.absenceContainer {
+    display: flex;
+    flex-direction: row;
+    order: 2;
+    flex-wrap: wrap;
+}

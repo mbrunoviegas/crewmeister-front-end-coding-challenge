@@ -1,0 +1,6 @@
+.labelForm {
+    margin-top: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
