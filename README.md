@@ -6,8 +6,10 @@
 I felt the necessity to create an interface for my project, so I created this simple one and I'll let some instruction below.
 
 #### Prerequisites
-1. In (v6.5.0 or higher)
-2. `npm i`
+1. `npm i`
+
+### Running
+1. `npm start` 
 
 ### Interface Usage
 
