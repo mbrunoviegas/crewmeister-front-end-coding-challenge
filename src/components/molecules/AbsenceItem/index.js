@@ -1,17 +1,23 @@
 import React from 'react'
 import './styles.css'
+import AddAbsenceToCalendar from '../AddAbsenceToCalendar';
 
 const AbsenceItem = (props) => {
     const { absence } = props;
-    console.log(absence);
     return (
         <div id="absenceItem">
-            <div id="absenceLabel">
-                From {absence.startDate} to {absence.endDate}
+            <div id="teste">
+                <div>
+                    <div id="absenceLabel">
+                        From {absence.startDate} to {absence.endDate}
+                    </div>
+                    <div id="absence">
+                        {absence.name} is {absence.type === 'sickness' ? 'sick' : 'on vacation'}.
+                    </div>
+                </div>
+                <AddAbsenceToCalendar absence={absence} />
             </div>
-            <div id="absence">
-                {absence.name} is {absence.type === 'sickness' ? 'sick' : 'on vacation'}.
-            </div>
+
             <hr className="solid"></hr>
         </div>
     )
