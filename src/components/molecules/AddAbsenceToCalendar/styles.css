@@ -1,20 +1,17 @@
 #calendarContainer {
     -webkit-font-smoothing: antialiased;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
-    display: inline-block;
 }
 
-#addAbsenceDiv {
-    display: flex;
+#calendarWrapper {
     zoom: 1;
     cursor: pointer;
 }
 
-#calendarStyle {
+#calendarButton {
     padding: 5px;
     background-color: #f9f9f9;
-    border: 1px solid #aab9d4;
+    border: 1px solid darkorange;
     border-radius: 3px;
-    display: flex;
     align-self: center;
 }

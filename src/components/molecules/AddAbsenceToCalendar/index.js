@@ -7,8 +7,8 @@ const AddAbsenceToCalendar = (props) => {
 
     return (
         <div id="calendarContainer">
-            <div id="calendarItem">
-                <div id="calendarStyle">
+            <div id="calendarWrapper">
+                <div id="calendarButton">
                     <CalendarButton absence={absence} />
                 </div>
             </div>

@@ -6,7 +6,7 @@ const AbsenceItem = (props) => {
     const { absence } = props;
     return (
         <div id="absenceItem">
-            <div id="teste">
+            <div id="absenceContainer">
                 <div>
                     <div id="absenceLabel">
                         From {absence.startDate} to {absence.endDate}

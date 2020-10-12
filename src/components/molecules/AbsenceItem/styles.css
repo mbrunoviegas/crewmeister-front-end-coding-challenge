@@ -21,7 +21,7 @@
     font-style: italic;
 }
 
-#teste {
+#absenceContainer {
     display: flex;
     width: 100%;
     justify-content: space-between;
