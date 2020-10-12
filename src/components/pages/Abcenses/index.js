@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import fileDownload from 'js-file-download';
 import AbsenceService from '../../../services/modules/Absences'
+import AbsenceContainer from '../../templates/AbsenceContainer';
+import ButtonContainer from '../../molecules/ButtonContainer/index'
 
 import './styles.css'
 import "react-datepicker/dist/react-datepicker.css";
-import AbsenceContainer from '../../templates/AbsenceContainer';
-import ButtonContainer from '../../molecules/ButtonContainer/index'
+
 
 export default function Absences() {
     const absenceService = new AbsenceService()
@@ -19,15 +20,12 @@ export default function Absences() {
         absenceService.getICalendarAbsences().then((file) => {
             fileDownload(file, "AbsencesCalendar.ics")
         });
-
     }
 
     const handleSubmit = (e) => {
         let userIdValue = startDate && endDate ? "" : userId
-
-        if (!userIdValue) {
+        if (!userIdValue)
             setUserId(userIdValue);
-        }
 
         absenceService.getAbsences(userIdValue, startDate, endDate).then((data) => {
             setAbsences(data);
